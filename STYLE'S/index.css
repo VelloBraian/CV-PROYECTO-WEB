@@ -1,7 +1,7 @@
 /* importamos las fuentes */
-@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400;600;700&family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 *{
-    font-family: "Titillium Web";
+    font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -48,13 +48,13 @@ html{
 .inicio .contenido-seccion header .logo{
     font-weight: bold;
     font-size: 2.5rem;
-    font-family: "Yellowtail";
+    font-family: 'Roboto', sans-serif;
     text-shadow: 0 0 35px #fff;
 }
-/** logo developers**/
+/** logo ARGENTINA PROGRAMA**/
 .inicio .contenido-seccion header .logo .color{
-    color: #f50202;
-    font-family: "Yellowtail";
+    color: #65ebf5;
+    font-family: 'Roboto', sans-serif;
 }
 .inicio .contenido-seccion header .nav-bar{
     position: fixed;
@@ -120,7 +120,7 @@ html{
 }
 /* estilos generales */
 .titulo-seccion{
-    font-family: "Yellowtail";
+    font-family: 'Roboto', sans-serif;
     font-size: 1.5rem;
 }
 /* SECCION SOBRE MI */

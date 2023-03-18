@@ -29,7 +29,7 @@ function crearBarra(id_barra){
     }
 }
 
-//selecciono todas las barras generales par aluego manipularlas
+//selecciono todas las barras generales para luego manipularlas
 let html = document.getElementById("html");
 crearBarra(html);
 let javascript = document.getElementById("javascript");
@@ -83,7 +83,7 @@ function pintarBarra(id_barra, cantidad, indice, interval){
     x = contadores[indice];
     if(x < cantidad){
         let elementos = id_barra.getElementsByClassName("e");
-        elementos[x].style.backgroundColor = "#940253";
+        elementos[x].style.backgroundColor = "#05e749";
     }else{
         clearInterval(interval)
     }
